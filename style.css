@@ -44,10 +44,12 @@ html {
     position: absolute;
     transform: translate(-50%, -50%) scale(0);
     text-shadow: 0.2rem 0.2rem 0.2rem #000;
+    transition: transfrom 0.3s ease-in;
 
 }
 
 .section-1-icons i.change {
     transform: translate(-50%,-50%) scale(1);
+    transition: transfrom 0.3s ease-in;
 }
 /* End: Section-1 Heading */
