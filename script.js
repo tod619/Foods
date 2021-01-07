@@ -1,3 +1,12 @@
+// Navbar to dropdown when menu icon is clicked
+document.querySelector(".menu").addEventListener(
+    "click", ()=> {
+        document.querySelectorAll(".target").forEach((item)=>{
+            item.classList.toggle("change")
+        })
+    }
+)
+
 // annimate heading icons
 const icons = document.querySelectorAll(".section-1-icons i")
 let i = 1
